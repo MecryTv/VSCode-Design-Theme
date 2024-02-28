@@ -1,0 +1,43 @@
+{
+  "name": "mecrytv-design",
+  "displayName": "MecryTv Design",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "scripts": {
+    "deploy": "vsce publish --yarn"
+  },
+  "publisher": "mecrytv",
+  "categories": [
+    "Themes"
+  ],
+  "galleryBanner": {
+    "color": "#007ACC",
+    "theme": "dark"
+  },
+  "bugs": {
+    "url": "https://github.com/MecryTv/VSCode-Design-Theme/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MecryTv/VSCode-Design-Theme"
+  },
+  "icon": "icon.png",
+  "keywords": [
+    "mecrtydesign"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "MecryTv Design Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/MecryTv Design Theme-color-theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "vsce": "^1.97.0"
+  }
+}
