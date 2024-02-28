@@ -1,7 +1,7 @@
 name: Publish
 
 on:
-  realease:
+  release:
     types:
       - released
 
